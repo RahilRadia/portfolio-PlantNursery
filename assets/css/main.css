@@ -3475,6 +3475,7 @@ input, select, textarea {
 			width: 50%;
 			max-width: 48rem;
 			margin: 0 auto;
+			line-height: 1.2;
 		}
 
 		.banner.style1 .image {
