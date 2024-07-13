@@ -6349,7 +6349,6 @@ input, select, textarea {
 	}
 
 /* Gallery (style1) */
-
 	.gallery.style1 {
 		background-color: #000000;
 		color: #ffffff;
@@ -7659,6 +7658,17 @@ input, select, textarea {
 			border-style: solid;
 			border-left-width: 1px;
 			border-top-width: 1px;
+		}
+
+		.flex-container {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		.flex-item {
+			flex: 1 1 20%; /* Adjust the basis percentage to fit your layout */
+			margin: 10px;
+			box-sizing: border-box;
 		}
 
 		.items.style1.big > * {
