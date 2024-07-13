@@ -6482,6 +6482,22 @@ input, select, textarea {
 			justify-content: inherit;
 		}
 
+		.gallery.style1 > .innerl {
+			-moz-align-items: inherit;
+			-webkit-align-items: inherit;
+			-ms-align-items: inherit;
+			align-items: left;
+			display: inherit;
+			-moz-flex-wrap: inherit;
+			-webkit-flex-wrap: inherit;
+			-ms-flex-wrap: inherit;
+			flex-wrap: inherit;
+			-moz-justify-content: inherit;
+			-webkit-justify-content: inherit;
+			-ms-justify-content: inherit;
+			justify-content: inherit;
+		}
+
 		.gallery.style1 article {
 			overflow: hidden;
 			position: relative;
