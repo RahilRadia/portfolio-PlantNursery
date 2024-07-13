@@ -7660,6 +7660,20 @@ input, select, textarea {
 			border-top-width: 1px;
 		}
 
+		.items.style11 > * {
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+			-moz-flex-shrink: 0;
+			-webkit-flex-shrink: 0;
+			-ms-flex-shrink: 0;
+			flex-shrink: 0;
+			border-style: none;
+			border-left-width: 0;
+			border-top-width: 0;
+		}
+
 		.flex-container {
 			display: flex;
 			justify-content: space-between;
