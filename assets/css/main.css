@@ -7668,7 +7668,8 @@ input, select, textarea {
 		.flex-item {
 			flex: 5 5 40%; /* Adjust the basis percentage to fit your layout */
 			margin: 10px;
-			box-sizing: border-box;
+			box-sizing: content-box;
+			border: none;
 		}
 
 		.items.style1.big > * {
